@@ -118,3 +118,4 @@ Pembagian dilakukan secara kronologis untuk mensimulasikan kondisi operasional n
 | **Git & GitHub** | *Version control* dan kolaborasi kode |
 
 
+*Dikembangkan oleh Elmo & Rasya.*
