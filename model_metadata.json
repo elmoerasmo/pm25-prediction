@@ -1,0 +1,34 @@
+{
+    "model_name": "LightGBM PM2.5 Bandung Regressor",
+    "version": "1.0.0",
+    "algorithm": "LGBMRegressor",
+    "hyperparameters": {
+        "n_estimators": 120,
+        "learning_rate": 0.05,
+        "random_state": 42
+    },
+    "metrics": {
+        "test_mae_ugm3": 8.6379,
+        "test_rmse_ugm3": 49.7752,
+        "test_r2_score": 0.0409
+    },
+    "features": [
+        "pm25_ugm3",
+        "suhu_C",
+        "kelembaban_pct",
+        "kecepatan_angin_ms",
+        "arah_angin_deg",
+        "curah_hujan_mm",
+        "hour",
+        "day_of_week",
+        "month",
+        "is_weekend",
+        "pm25_lag1",
+        "pm25_lag2",
+        "stasiun_antapani",
+        "stasiun_cibeureum",
+        "stasiun_dago",
+        "stasiun_soekarno-hatta"
+    ],
+    "target": "target_pm25_3h"
+}
