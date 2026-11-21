@@ -1,10 +1,11 @@
 # Prediksi PM2.5 Bandung
 
-**Machine Learning Project Kasus 06**
+## Tautan Proyek
+Repository GitHub: https://github.com/elmoerasmo/pm25-prediction
 
-Proyek Machine Learning untuk memprediksi konsentrasi partikulat halus PM2.5 tiga jam ke depan pada lima stasiun pemantauan kualitas udara di Kota Bandung. Sistem ini dikembangkan sebagai sarana prakiraan kualitas udara berbasis regresi deret waktu (*time-series regression*) untuk membantu masyarakat dan instansi terkait melakukan tindakan antisipatif sebelum kondisi udara memburuk.
+Aplikasi Web (Streamlit): [pm25-prediction.streamlit.app/](https://pm25-prediction.streamlit.app/)
 
-Hasil prediksi diintegrasikan ke dalam aplikasi web interaktif berbasis **Streamlit** dengan tampilan indikator visual dan rekomendasi kesehatan yang mudah dipahami.
+Video Demonstrasi: https://drive.google.com/file/d/1MkOKqt67DHJGO-tWazEGZQ0PFoDHly0T/view?usp=sharing
 
 ---
 
@@ -116,16 +117,4 @@ Pembagian dilakukan secara kronologis untuk mensimulasikan kondisi operasional n
 | **Streamlit** | Pengembangan dashboard dan antarmuka aplikasi web interaktif |
 | **Git & GitHub** | *Version control* dan kolaborasi kode |
 
-## 8. Arsitektur & Fitur Aplikasi
 
-```text
-Data Sensor & Input Cuaca (Real-time)
-                │
-                ▼
-Validasi Input & Preprocessing (StandardScaler + Feature Engineering)
-                │
-                ▼
-Inferensi Model LightGBM (model.joblib)
-                │
-                ▼
-Dashboard Web Streamlit (Gauge Indikator & Rekomendasi Kesehatan)
